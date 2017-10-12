@@ -66,7 +66,6 @@ void rectangleDraw() {
   fill(mBplusMidi+bassBand,midBand+mBplusMidi2,trebleBand+mBplusMidi3);
   rect(0,0,boxWidth,boxWidth);
   
-  boxWidth-=.000001;
   
   //instructions for creating the encircling rectangle
   translate(width/3,height/3);
@@ -76,7 +75,6 @@ void rectangleDraw() {
   fill(mBplusMidi4+bassBand,midBand+mBplusMidi5,trebleBand+mBplusMidi6);
   rect(0,0,boxWidth2,boxWidth2);
   
-  boxWidth2-=.000001;
 }
 
 //
